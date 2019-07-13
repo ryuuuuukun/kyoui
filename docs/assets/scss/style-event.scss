@@ -16,6 +16,7 @@ body {
     "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic", sans-serif, sans-serif;
   font-size: 1.6rem;
   color: $color-black;
+  background: #0F0F0F;
 }
 
 ul {
@@ -135,7 +136,12 @@ a {
 }
 
 @media screen and (min-width:1024px) {
+  #visual-horizontal {
+    display: inline;
+  }
+
   #visual-vertical {
     display: none;
   }
+
 }

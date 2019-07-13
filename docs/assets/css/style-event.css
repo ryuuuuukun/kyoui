@@ -9,6 +9,7 @@ body {
   font-family: "Avenir next", "Arial", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic", sans-serif, sans-serif;
   font-size: 1.6rem;
   color: #393939;
+  background: #0F0F0F;
 }
 
 ul {
@@ -131,6 +132,9 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  #visual-horizontal {
+    display: inline;
+  }
   #visual-vertical {
     display: none;
   }
