@@ -2,8 +2,8 @@
 
 // valuables
 $color-black: #393939;
-$color-darkgray: #878787;
-$color-lightgray: #aeaeae;
+$color-text-lightgray: #CBCBCB;
+$color-text-darkgray: #aeaeae;
 $color-white: #fff;
 
 html {
@@ -15,7 +15,7 @@ body {
   font-family: "Avenir next", "Arial", "Hiragino Kaku Gothic ProN",
     "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic", sans-serif, sans-serif;
   font-size: 1.6rem;
-  color: $color-black;
+  color: $color-text-darkgray;
   background: #0F0F0F;
 }
 
@@ -47,7 +47,7 @@ a {
   margin: 0 auto 72px;
   &__title {
     margin: 0 auto 32px;
-    color: $color-darkgray;
+    color: $color-text-darkgray;
     font-size: 2rem;
     text-align: center;
     font-weight: 200;
@@ -75,7 +75,7 @@ a {
         font-size: 2.4rem;
       }
       &__subtitle {
-        color: $color-lightgray;
+        color: $color-text-darkgray;
         font-size: 1.2rem;
         margin-bottom: 8px;
       }
@@ -97,7 +97,7 @@ a {
   &__text {
     margin: 0 auto;
     max-width: 400px;
-    color: $color-darkgray;
+    color: $color-text-darkgray;
     font-size: 1.4rem;
     line-height: 2.8rem;
   }
@@ -106,17 +106,46 @@ a {
 .table {
   margin: 0 auto;
   &__title {
-    color: $color-lightgray;
+    color: $color-text-darkgray;
     text-align: right;
     font-size: 1.4rem;
   }
   &__contents {
-    color: #cbcbcb;
+    color: $color-text-lightgray;
     padding-left: 32px;
     text-align: left;
     font-size: 1.6rem;
     font-weight: bold;
   }
+}
+
+.access {
+  &__texts {
+    width: 240px;
+    margin: 0 auto;
+    &__contents {
+      color: $color-text-lightgray;
+    }
+  }
+}
+
+.sub-button {
+  display: block;
+  margin: 0 auto 24px;
+  height: 44px;
+  width: 216px;
+  border: 1px solid $color-white;
+  border-radius: 22px;
+  text-align: center;
+  color: #fff;
+  line-height: 44px;
+}
+
+.cloudfunding-img {
+  display: block;
+  margin: 0 auto 16px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .cards {
@@ -144,7 +173,7 @@ a {
     &__role {
       margin-bottom: 8px;
       font-size: 1.4rem;
-      color: $color-darkgray;
+      color: $color-text-darkgray;
     }
     &__text {
       font-size: 1.2rem;
