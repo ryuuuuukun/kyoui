@@ -50,6 +50,7 @@ a {
     color: $color-darkgray;
     font-size: 2rem;
     text-align: center;
+    font-weight: 200;
   }
 }
 
@@ -96,8 +97,25 @@ a {
   &__text {
     margin: 0 auto;
     max-width: 400px;
+    color: $color-darkgray;
     font-size: 1.4rem;
     line-height: 2.8rem;
+  }
+}
+
+.table {
+  margin: 0 auto;
+  &__title {
+    color: $color-lightgray;
+    text-align: right;
+    font-size: 1.4rem;
+  }
+  &__contents {
+    color: #cbcbcb;
+    padding-left: 32px;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: bold;
   }
 }
 
