@@ -38,6 +38,10 @@ a {
   }
 }
 
+#visual-horizontal {
+  display: none;
+}
+
 .top-section {
   margin: 0 auto 72px;
   &__title {
@@ -127,5 +131,11 @@ a {
       font-size: 1.2rem;
       line-height: 2.1rem;
     }
+  }
+}
+
+@media screen and (min-width:1024px) {
+  #visual-vertical {
+    display: none;
   }
 }
