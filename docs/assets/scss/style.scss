@@ -34,6 +34,7 @@ a {
   margin: 0 0 72px;
   text-align: center;
   &__logo {
+    max-width: 560px;
     width: 80%;
   }
 }
@@ -89,13 +90,23 @@ a {
     text-align: center;
   }
   &__text {
+    margin: 0 auto;
+    max-width: 400px;
     font-size: 1.4rem;
     line-height: 2.8rem;
   }
 }
 
+.cards {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1080px;
+  justify-content: space-between;
+}
+
 .member {
   &__card {
+    max-width: 350px;
     margin-bottom: 32px;
 
     &__image {
