@@ -132,16 +132,22 @@ a {
 
 .caution {
   margin: 0 auto;
-  max-width: 450px;
+  max-width: 320px;
 }
 
 .caution__item {
   font-size: 1.2rem;
+  text-indent: -1em;
+}
+
+.caution__item::before {
+  display: inline;
+  content: "※";
 }
 
 .access__texts {
   text-align: left;
-  width: 240px;
+  max-width: 312px;
   margin: 24px auto 0;
 }
 
@@ -176,11 +182,19 @@ a {
   z-index: 100;
 }
 
-.cloudfunding-img {
+.cloudfunding__img {
   display: block;
   margin: 0 auto 16px;
   width: 100%;
   max-width: 400px;
+}
+
+.cloudfunding__text {
+  margin: 0 auto 16px;
+  max-width: 400px;
+  color: #aeaeae;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 
 footer {
