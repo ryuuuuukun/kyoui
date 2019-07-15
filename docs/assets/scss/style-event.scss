@@ -123,10 +123,15 @@ a {
 // }
 
 .table {
-  margin: 0 auto;
+  border-spacing: 0px 16px;
+  & td {
+    // min-height: 40;
+  }
+  margin: 0 auto 16px;
   &__title {
     color: $color-text-darkgray;
     text-align: right;
+    vertical-align: top;
     font-size: 1.4rem;
   }
   &__contents {
@@ -138,13 +143,29 @@ a {
   }
 }
 
+.address {
+  font-size: 1.2rem;
+}
+
+.caution {
+  margin: 0 auto;
+  max-width: 450px;
+  &__item {
+    font-size: 1.2rem;
+  }
+}
+
 .access {
   &__texts {
+    text-align: left;
     width: 240px;
-    margin: 0 auto;
+    margin: 24px auto 0;
     &__contents {
       color: $color-text-lightgray;
     }
+  }
+  &__map {
+    text-align: center;
   }
 }
 

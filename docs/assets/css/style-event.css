@@ -107,12 +107,14 @@ a {
 }
 
 .table {
-  margin: 0 auto;
+  border-spacing: 0px 16px;
+  margin: 0 auto 16px;
 }
 
 .table__title {
   color: #aeaeae;
   text-align: right;
+  vertical-align: top;
   font-size: 1.4rem;
 }
 
@@ -124,13 +126,31 @@ a {
   font-weight: bold;
 }
 
-.access__texts {
-  width: 240px;
+.address {
+  font-size: 1.2rem;
+}
+
+.caution {
   margin: 0 auto;
+  max-width: 450px;
+}
+
+.caution__item {
+  font-size: 1.2rem;
+}
+
+.access__texts {
+  text-align: left;
+  width: 240px;
+  margin: 24px auto 0;
 }
 
 .access__texts__contents {
   color: #CBCBCB;
+}
+
+.access__map {
+  text-align: center;
 }
 
 .button {
