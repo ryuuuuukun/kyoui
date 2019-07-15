@@ -248,6 +248,13 @@ a {
     line-height: 2.8rem;
     text-align: left;
   }
+  &__caption {
+    margin: 0 auto 24px;
+    max-width: 320px;
+    color: $color-text-darkgray;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+  }
 }
 
 .collaborators {

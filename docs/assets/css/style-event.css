@@ -247,6 +247,14 @@ a {
   text-align: left;
 }
 
+.collabo-menu__caption {
+  margin: 0 auto 24px;
+  max-width: 320px;
+  color: #aeaeae;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+
 .collaborators__list__item {
   margin-bottom: 16px;
   text-align: center;
