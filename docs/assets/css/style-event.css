@@ -98,6 +98,14 @@ a {
   line-height: 2.8rem;
 }
 
+.video-container {
+  margin: 32px 0 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
 .table {
   margin: 0 auto;
 }

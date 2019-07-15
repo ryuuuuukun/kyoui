@@ -103,6 +103,25 @@ a {
   }
 }
 
+.video-container {
+  margin: 32px 0 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+// .video-container iframe,
+// .video-container object,
+// .video-container embed {
+//   position: absolute;
+//   top: 0;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   width: 100%;
+//   height: 320px;
+// }
+
 .table {
   margin: 0 auto;
   &__title {
