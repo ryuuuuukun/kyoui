@@ -12,7 +12,7 @@ html {
 
 body {
   list-style: none;
-  font-family: "Avenir next", "Arial", "Hiragino Kaku Gothic ProN",
+  font-family: "Sawarabi Mincho",
     "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic", sans-serif, sans-serif;
   font-size: 1.6rem;
   color: $color-text-darkgray;
@@ -124,9 +124,6 @@ a {
 
 .table {
   border-spacing: 0px 16px;
-  & td {
-    // min-height: 40;
-  }
   margin: 0 auto 16px;
   &__title {
     color: $color-text-darkgray;
@@ -212,6 +209,16 @@ a {
     line-height: 2.8rem;
   }
 }
+
+.collaborators {
+  &__list {
+    &__item {
+      margin-bottom: 16px;
+      text-align: center;
+    }
+  }
+}
+
 footer {
   text-align: center;
 }
