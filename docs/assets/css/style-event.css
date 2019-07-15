@@ -133,7 +133,7 @@ a {
   color: #CBCBCB;
 }
 
-.sub-button {
+.button {
   display: block;
   margin: 0 auto 24px;
   height: 44px;
@@ -143,6 +143,17 @@ a {
   text-align: center;
   color: #fff;
   line-height: 44px;
+}
+
+.CTA {
+  position: fixed;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 16px;
+  background: #fff;
+  color: #393939;
+  font-weight: bold;
+  z-index: 100;
 }
 
 .cloudfunding-img {
