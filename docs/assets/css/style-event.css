@@ -34,6 +34,10 @@ a {
   width: 100vw;
 }
 
+.change-yu-mincho {
+  font-family: YuMincho;
+}
+
 #visual-horizontal {
   display: none;
 }
@@ -113,6 +117,7 @@ a {
 }
 
 .table__title {
+  min-width: 32px;
   color: #aeaeae;
   text-align: right;
   vertical-align: top;
@@ -120,15 +125,15 @@ a {
 }
 
 .table__contents {
-  color: #CBCBCB;
+  color: #aeaeae;
   padding-left: 32px;
   text-align: left;
   font-size: 1.6rem;
-  font-weight: bold;
 }
 
 .address {
   font-size: 1.2rem;
+  line-height: 1.2rem;
 }
 
 .caution {
@@ -158,6 +163,10 @@ a {
 
 .access__map {
   text-align: center;
+}
+
+.access__map iframe {
+  max-width: 450px;
 }
 
 .button {
@@ -208,13 +217,19 @@ footer {
 }
 
 .sns-buttons {
-  display: block;
-  margin: 0 auto 16px;
-  width: 44px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 48px;
+  width: 100px;
 }
 
 .sns-buttons__twitter {
   width: 44px;
+}
+
+.footer-logo {
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {

@@ -40,6 +40,10 @@ a {
   }
 }
 
+.change-yu-mincho {
+  font-family: YuMincho;
+}
+
 #visual-horizontal {
   display: none;
 }
@@ -127,22 +131,23 @@ a {
   border-spacing: 0px 16px;
   margin: 0 auto 16px;
   &__title {
+    min-width: 32px;
     color: $color-text-darkgray;
     text-align: right;
     vertical-align: top;
     font-size: 1.4rem;
   }
   &__contents {
-    color: $color-text-lightgray;
+    color: $color-text-darkgray;
     padding-left: 32px;
     text-align: left;
     font-size: 1.6rem;
-    font-weight: bold;
   }
 }
 
 .address {
   font-size: 1.2rem;
+  line-height: 1.2rem;
 }
 
 .caution {
@@ -169,6 +174,9 @@ a {
   }
   &__map {
     text-align: center;
+    & iframe {
+      max-width: 450px;
+    }
   }
 }
 
@@ -225,12 +233,18 @@ footer {
 }
 
 .sns-buttons {
-  display: block;
-  margin: 0 auto 16px;
-  width: 44px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 48px;
+  width: 100px;
   &__twitter {
     width: 44px;
   }
+}
+
+.footer-logo {
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 @media screen and (min-width:1024px) {
