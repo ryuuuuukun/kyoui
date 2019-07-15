@@ -21,7 +21,8 @@ a {
 }
 
 .wrapper {
-  padding: 32px;
+  padding: 0 32px;
+  margin-bottom: 104px;
 }
 
 .first-view {
