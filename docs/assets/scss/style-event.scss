@@ -2,7 +2,7 @@
 
 // valuables
 $color-black: #393939;
-$color-text-lightgray: #CBCBCB;
+$color-text-lightgray: #cbcbcb;
 $color-text-darkgray: #aeaeae;
 $color-white: #fff;
 
@@ -12,11 +12,11 @@ html {
 
 body {
   list-style: none;
-  font-family: "Sawarabi Mincho",
-    "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic", sans-serif, sans-serif;
+  font-family: "Sawarabi Mincho", "ヒラギノ角ゴ ProN W3", YuGothic, "Yu Gothic",
+    sans-serif, sans-serif;
   font-size: 1.6rem;
   color: $color-text-darkgray;
-  background: #0F0F0F;
+  background: #0f0f0f;
 }
 
 ul {
@@ -133,7 +133,6 @@ a {
   height: 100%;
 }
 
-
 .table {
   border-spacing: 0px 16px;
   margin: 0 auto 16px;
@@ -165,7 +164,7 @@ a {
     text-indent: -1em;
     &::before {
       display: inline;
-      content: "※"; 
+      content: "※";
     }
   }
 }
@@ -204,7 +203,7 @@ a {
   right: 50%;
   transform: translateX(50%);
   bottom: 16px;
-  background:$color-white;
+  background: $color-white;
   color: $color-black;
   font-weight: bold;
   z-index: 100;
@@ -285,7 +284,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   #visual-horizontal {
     display: inline;
   }
@@ -297,5 +296,4 @@ footer {
   .youtube {
     padding-top: 26%;
   }
-
 }
