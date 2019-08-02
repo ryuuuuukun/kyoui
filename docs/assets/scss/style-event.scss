@@ -227,18 +227,16 @@ a {
 
 .collabo-menu {
   &__card {
+    max-width: 320px;
+    margin: 0 auto 24px;
     text-align: center;
   }
   &__img {
-    height: 320px;
+    display: block;
+    margin: 0 auto 16px;
+    max-height: 320px;
   }
-  &__title {
-    margin: 0 auto 8px;
-    max-width: 400px;
-    color: $color-text-darkgray;
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-  }
+
   &__text {
     margin: 0 auto 24px;
     max-width: 400px;
@@ -247,12 +245,34 @@ a {
     line-height: 2.8rem;
     text-align: left;
   }
-  &__caption {
-    margin: 0 auto 24px;
-    max-width: 320px;
+}
+
+.collabo-menu-texts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__title {
+    margin: 0 0 8px;
+    max-width: 300px;
     color: $color-text-darkgray;
     font-size: 1.4rem;
-    line-height: 2.8rem;
+    line-height: 1;
+  }
+  &__price {
+    margin: 0 0 8px;
+    max-width: 60px;
+    color: $color-text-darkgray;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  &__caption {
+    margin: 0 0 24px;
+    width: 100%;
+    color: $color-text-darkgray;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.8rem;
   }
 }
 
@@ -295,5 +315,52 @@ footer {
 
   .youtube {
     padding-top: 26%;
+  }
+
+  .collabo-menu {
+    &__card {
+      max-width: 320px;
+      margin: 0 0 24px;
+      text-align: left;
+    }
+  }
+
+  .collabo-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1080px;
+  }
+
+  .collabo-menu-texts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__title {
+      margin: 0 0 8px;
+      max-width: 300px;
+      color: $color-text-darkgray;
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    &__price {
+      margin: 0 0 8px;
+      max-width: 60px;
+      color: $color-text-darkgray;
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+    &__caption {
+      flex-shrink: 0;
+      margin: 0 0 24px;
+      width: 100%;
+      max-width: 300px;
+      color: $color-text-darkgray;
+      font-size: 1.2rem;
+      text-align: left;
+      line-height: 1.8rem;
+    }
   }
 }
