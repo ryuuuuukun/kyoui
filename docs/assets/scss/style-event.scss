@@ -266,6 +266,14 @@ a {
     font-size: 1.4rem;
     line-height: 1;
   }
+  &__store {
+    margin: 0 0 16px;
+    width: 100%;
+    color: $color-text-darkgray;
+    font-size: 1.1rem;
+    line-height: 1;
+    text-align: left;
+  }
   &__caption {
     margin: 0 0 24px;
     width: 100%;
