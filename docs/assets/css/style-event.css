@@ -260,11 +260,12 @@ a {
   color: #aeaeae;
   font-size: 1.4rem;
   line-height: 1;
+  text-align: left;
 }
 
 .collabo-menu-texts__price {
   margin: 0 0 8px;
-  max-width: 70px;
+  max-width: 100px;
   color: #aeaeae;
   font-size: 1.4rem;
   line-height: 1;

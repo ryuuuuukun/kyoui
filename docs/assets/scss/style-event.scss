@@ -261,10 +261,11 @@ a {
     color: $color-text-darkgray;
     font-size: 1.4rem;
     line-height: 1;
+    text-align: left;
   }
   &__price {
     margin: 0 0 8px;
-    max-width: 70px;
+    max-width: 100px;
     color: $color-text-darkgray;
     font-size: 1.4rem;
     line-height: 1;
