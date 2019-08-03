@@ -233,7 +233,10 @@ a {
 .collabo-menu__img {
   display: block;
   margin: 0 auto 16px;
+  width: 100%;
   max-height: 320px;
+  max-width: 360px;
+  object-fit: cover;
 }
 
 .collabo-menu__text {
@@ -253,7 +256,7 @@ a {
 
 .collabo-menu-texts__title {
   margin: 0 0 8px;
-  max-width: 300px;
+  max-width: 290px;
   color: #aeaeae;
   font-size: 1.4rem;
   line-height: 1;
@@ -261,14 +264,14 @@ a {
 
 .collabo-menu-texts__price {
   margin: 0 0 8px;
-  max-width: 60px;
+  max-width: 70px;
   color: #aeaeae;
   font-size: 1.4rem;
   line-height: 1;
 }
 
 .collabo-menu-texts__store {
-  margin: 0 0 16px;
+  margin: 0 0 12px;
   width: 100%;
   color: #aeaeae;
   font-size: 1.1rem;

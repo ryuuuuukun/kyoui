@@ -234,7 +234,10 @@ a {
   &__img {
     display: block;
     margin: 0 auto 16px;
+    width: 100%;
     max-height: 320px;
+    max-width: 360px;
+    object-fit: cover;
   }
 
   &__text {
@@ -254,20 +257,20 @@ a {
 
   &__title {
     margin: 0 0 8px;
-    max-width: 300px;
+    max-width: 290px;
     color: $color-text-darkgray;
     font-size: 1.4rem;
     line-height: 1;
   }
   &__price {
     margin: 0 0 8px;
-    max-width: 60px;
+    max-width: 70px;
     color: $color-text-darkgray;
     font-size: 1.4rem;
     line-height: 1;
   }
   &__store {
-    margin: 0 0 16px;
+    margin: 0 0 12px;
     width: 100%;
     color: $color-text-darkgray;
     font-size: 1.1rem;
